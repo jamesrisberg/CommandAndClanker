@@ -1,0 +1,82 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/EstablishingControl.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/ConstructionComplete.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "idle_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/SelectTarget.wav\"",
+            "async": true
+          }
+        ]
+      },
+      {
+        "matcher": "elicitation_dialog",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/IncomingTransmission.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/BattleControlOffline.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/InsufficientFunds.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/GDI/Reinforcements.wav\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionStart.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/TaskComplete.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "idle_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Idle.ogg\"",
+            "async": true
+          }
+        ]
+      },
+      {
+        "matcher": "elicitation_dialog",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/IncomingAlert.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionEnd.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SpawnMoreOverlords.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Reinforcements.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": []
+  }
+}

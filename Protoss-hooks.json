@@ -1,0 +1,82 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionStart.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/TaskComplete.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "idle_prompt",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Idle.ogg\"",
+            "async": true
+          }
+        ]
+      },
+      {
+        "matcher": "elicitation_dialog",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/IncomingAlert.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionEnd.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/AdditionalPylons.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Reinforcements.ogg\"",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": []
+  }
+}

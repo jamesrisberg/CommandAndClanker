@@ -36,3 +36,7 @@ Game voice lines as Claude Code hooks.
 | Subagent spawns | "Reinforcements have arrived" | SCV Ready | Queen Yes | Zealot "My life for Aiur!" |
 
 Other hooks exist, and all the game audio files are available so have fun!
+
+## SC2 Sound Archive
+
+Want to browse all the extracted SC2 sounds and pick your own? Download the [SC2 Sound Archive](https://github.com/jamesrisberg/CommandAndClanker/releases/tag/v1.0) (157MB zip) from the Releases page. It contains 4,496 voice lines organized by race, unit, announcer pack, and campaign character.

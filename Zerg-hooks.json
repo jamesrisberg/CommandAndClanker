@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionStart.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionStart.wav\"",
             "async": true
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/TaskComplete.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/TaskComplete.wav\"",
             "async": true
           }
         ]
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Idle.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Idle.wav\"",
             "async": true
           }
         ]
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/IncomingAlert.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/IncomingAlert.wav\"",
             "async": true
           }
         ]
@@ -49,7 +49,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionEnd.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SessionEnd.wav\"",
             "async": true
           }
         ]
@@ -60,7 +60,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SpawnMoreOverlords.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/SpawnMoreOverlords.wav\"",
             "async": true
           }
         ]
@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Reinforcements.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Zerg/Reinforcements.wav\"",
             "async": true
           }
         ]

@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/SessionStart.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/SessionStart.wav\"",
             "async": true
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/TaskComplete.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/TaskComplete.wav\"",
             "async": true
           }
         ]
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/Idle.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/Idle.wav\"",
             "async": true
           }
         ]
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/IncomingAlert.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/IncomingAlert.wav\"",
             "async": true
           }
         ]
@@ -49,7 +49,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/SessionEnd.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/SessionEnd.wav\"",
             "async": true
           }
         ]
@@ -60,7 +60,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/NotEnoughMinerals.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/NotEnoughMinerals.wav\"",
             "async": true
           }
         ]
@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/Reinforcements.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Terran/Reinforcements.wav\"",
             "async": true
           }
         ]

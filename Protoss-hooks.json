@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionStart.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionStart.wav\"",
             "async": true
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/TaskComplete.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/TaskComplete.wav\"",
             "async": true
           }
         ]
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Idle.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Idle.wav\"",
             "async": true
           }
         ]
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/IncomingAlert.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/IncomingAlert.wav\"",
             "async": true
           }
         ]
@@ -49,7 +49,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionEnd.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/SessionEnd.wav\"",
             "async": true
           }
         ]
@@ -60,7 +60,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/AdditionalPylons.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/AdditionalPylons.wav\"",
             "async": true
           }
         ]
@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Reinforcements.ogg\"",
+            "command": "afplay \"$HOME/dev/CommandAndClanker/Protoss/Reinforcements.wav\"",
             "async": true
           }
         ]
